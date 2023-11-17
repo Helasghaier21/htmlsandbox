@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>HTML5 Semenatic Tags</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <h1>My Website</h1>
+      <p>Just Another Website</p>
+    </header>
+    <nav id="navbar">
+      <a href="#welcome">home</a>
+      <a href="#blog">blog</a>
+      <a href="#popular">popular Articles</a>
+    </nav>
+
+    <!-- Main content (left) -->
+    <main id="main">
+      <section id="welcome">
+        <h2>Welcome To Our Website</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aut
+          nobis pariatur atque odio tenetur voluptatem fuga, tempora beatae
+          harum vel blanditiis! Cum veritatis qui corporis voluptatem, aut culpa
+          odit veniam a autem sint, tempore labore rem. Voluptatem repellat
+          error sit rem ipsam totam facere asperiores repudiandae sed, quod
+          nesciunt.
+        </p>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog">
+        <!-- Articel One -->
+        <article>
+          <header>
+            <h3>Article One</h3>
+          </header>
+          <figure>
+            <img src="images/sample.jpg" width="500" alt="" />
+            <figcaption>
+              <i class="fa-solid fa-user"></i> by Sam Smith, April 2, 2014
+            </figcaption>
+          </figure>
+          <footer>
+            <a href="">Read More</a>
+            <!-- https://fontawesome.com/search?q=like&o=r -->
+            <i class="fa-solid fa-thumbs-up"></i>
+          </footer>
+        </article>
+
+        <!-- Article Two -->
+        <article>
+          <header>
+            <h3>Article One</h3>
+          </header>
+          <figure>
+            <img
+              src="images/pexels-kammeran-gonzalezkeola.jpg"
+              width="500"
+              alt=""
+            />
+            <figcaption>
+              <i class="fa-solid fa-user"></i> by John Doe, March 2, 2014
+            </figcaption>
+          </figure>
+          <footer>
+            <a href="">Read More</a>
+            <!-- https://fontawesome.com/search?q=like&o=r -->
+            <i class="fa-solid fa-thumbs-up"></i>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <!-- Popular Articles (right) -->
+    <aside id="popular">
+      <h3>Popular Articles</h3>
+      <ul>
+        <li><a href="">Article Three</a></li>
+        <li><a href="">Article Four</a></li>
+        <li><a href="">Article Five</a></li>
+      </ul>
+    </aside>
+
+    <hr />
+    <!-- Footer -->
+    <footer id="footer">
+      <!-- html entities
+            https://www.w3schools.com/html/html_entities.asp
+         -->
+      <p>Copright &copy; My Web Site 2023</p>
+    </footer>
+  </body>
+</html>
